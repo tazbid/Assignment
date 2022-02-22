@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
+body,
+html {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.bg {
+  /* The image used */
+  background-image: url("./images/Slider-1.png");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+.navbar-brand img {
+  width: 80%;
+}
+.doctors-btn {
+  border: none;
+  background: none;
+  padding: 10px 20px;
+}
+.login-btn {
+  border: 2px solid lightgray;
+  background: none;
+  padding: 10px 25px;
+}
+
+.campaign-section img {
+  width: 100%;
+}
+.campaign-section h3 {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #707070;
+}
+.clinikc-section h3 {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #707070;
+}
+
+/* ******************* */
+footer {
+  height: 12vh;
+  font-size: 15px;
+}
+
+button:focus{
+  offset: none;
+}
+
+/* responsive */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  .bg {
+    /* The image used */
+    background-image: url("./images/Slider-1.png");
+
+    /* Full height */
+    height: 37vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg {
+    /* The image used */
+    background-image: url("./images/Slider-1.png");
+
+    /* Full height */
+    height: 60vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg {
+    /* The image used */
+    background-image: url("./images/Slider-1.png");
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+  }
+}
+
+@media all and (max-width: 667px) {
+  .bg {
+    /* The image used */
+    background-image: url("./images/Slider-1.png");
+
+    /* Full height */
+    height: 37vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+  }
+}
+@media all and (max-width: 440px) {
+  .bg {
+    /* The image used */
+    background-image: url("./images/Slider-1.png");
+
+    /* Full height */
+    height: 27vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+  }
+  .navbar-brand{
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 410px) {
+  .bg {
+    /* The image used */
+    background-image: url("./images/Slider-1.png");
+
+    /* Full height */
+    height: 27vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+  }
+  .navbar-brand{
+    width: 70%;
+  }
+  footer{
+    height: 16vh;
+  }
+}
+@media all and (max-width: 300px) {
+  .bg {
+    /* The image used */
+    background-image: url("./images/Slider-1.png");
+
+    /* Full height */
+    height: 20vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+  }
+  .navbar-brand{
+    width: 70%;
+  }
+  footer{
+    height: 16vh;
+  }
+}
